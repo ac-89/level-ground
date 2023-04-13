@@ -1,0 +1,178 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+header > .container {
+  padding: 10px 0;
+}
+
+header,
+.section-1,
+footer {
+  background-color: #66768a;
+  color: white;
+}
+
+.section-1 {
+  background-image: url(../images/xuan-nguyen-jAke8NofTtE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 30px 0;
+}
+
+.section-1 a {
+  display: inline-block;
+  background-color: #66768a;
+  padding: 10px 20px;
+}
+
+nav > * {
+  width: 20%;
+}
+
+nav ul li {
+  display: block;
+  float: left;
+  margin: 20px;
+}
+
+nav img {
+  float: left;
+  height: 50px;
+  width: 50px;
+  margin-left: 35%;
+}
+
+section nav a {
+  float: right;
+  margin: 10px 0;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  color: black;
+  width: 100px;
+}
+
+.section-1 {
+  padding: 7rem 4rem;
+}
+
+.section-1 > * {
+  clear: both;
+  text-align: center;
+}
+
+.section-1 h1 {
+  font-size: 2.5rem;
+  margin: 1.3rem 0;
+}
+
+section a {
+  display: block;
+  margin: 40px 0;
+  text-decoration: none;
+  color: white;
+}
+
+section + section a {
+  border: 1px solid black;
+  display: inline-block;
+  padding: 15px 40px;
+  color: black;
+}
+
+.section-white {
+  padding: 100px;
+  clear: both;
+}
+
+.section-white > * {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.section-white h2 {
+  font-size: 1.7rem;
+  padding-bottom: 20px;
+}
+
+.section-cards {
+  background-color: #dbdfe2;
+}
+
+.section-cards .card {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.card {
+  padding-bottom: 40px;
+}
+
+.card h4 {
+  font-size: 1.5rem;
+}
+
+.card > * {
+  margin: 20px;
+}
+
+.card img {
+  /* display: block; */
+}
+
+.section-white a {
+  display: inline-block;
+  margin: 20px auto;
+}
+
+.white-1 {
+  background-image: url(../images/mark-adriane-FH6JcaCrYJ0-unsplash.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  /* background-position: cover; */
+  /* color: white; */
+}
+
+.white-1 section {
+  text-align: right;
+  margin-right: 0;
+}
+
+.section-cards img {
+  width: 98%;
+  height: 98%;
+}
+
+.white-2 section > p {
+  margin-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+}
